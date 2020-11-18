@@ -1,0 +1,22 @@
+type Member {
+    memberId: ID!
+    name: String!
+    age: Int
+    joining(hoge: String): [Music]
+}
+
+type Music {
+    musicId: ID!
+    title: String!
+    belongsTo(minPrice: Int): Company
+}
+
+type Company {
+    companyId: ID!
+    price: Int!
+}
+
+type Query {
+    getMember(memberId:ID!): Member
+    getMusic(musicId:ID!):Music
+}

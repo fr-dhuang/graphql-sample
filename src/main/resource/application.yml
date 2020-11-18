@@ -1,0 +1,14 @@
+#graphql:
+#  servlet:
+#    enabled: true
+#    mapping: /graphql
+#    corsEnabled: true
+
+graphiql:
+  enabled: true
+  mapping: /graphiql
+  endpoint:
+    graphql: /graphql
+
+bar:
+  interval: 114514
