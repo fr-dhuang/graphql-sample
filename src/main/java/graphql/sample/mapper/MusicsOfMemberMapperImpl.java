@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.context.annotation.Configuration;
 
-import graphql.sample.dao.Music;
+import graphql.sample.type.Music;
 
 @Configuration
 public class MusicsOfMemberMapperImpl implements MusicsOfMemberMapper {

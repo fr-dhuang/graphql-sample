@@ -2,7 +2,7 @@ package graphql.sample.mapper;
 
 import org.springframework.context.annotation.Configuration;
 
-import graphql.sample.dao.Music;
+import graphql.sample.type.Music;
 
 @Configuration
 public class MusicMapperImpl implements MusicMapper {

@@ -1,6 +1,6 @@
 package graphql.sample.mapper;
 
-import graphql.sample.dao.Company;
+import graphql.sample.type.Company;
 
 public interface CompanyOfMusicMapper {
     Company getCompanyOfMusic(String companyId);

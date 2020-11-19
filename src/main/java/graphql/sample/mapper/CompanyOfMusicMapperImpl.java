@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-import graphql.sample.dao.Company;
+import graphql.sample.type.Company;
 import lombok.Setter;
 
 @Component

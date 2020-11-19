@@ -3,8 +3,8 @@ package graphql.sample.resolver;
 import org.springframework.stereotype.Component;
 
 import graphql.kickstart.tools.GraphQLQueryResolver;
-import graphql.sample.dao.Company;
-import graphql.sample.dao.MessageInput;
+import graphql.sample.type.Company;
+import graphql.sample.type.MessageInput;
 
 @Component
 public class CompanyQueryResolver implements GraphQLQueryResolver {
