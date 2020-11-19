@@ -16,7 +16,13 @@ type Company {
     price: Int!
 }
 
+input MessageInput {
+    content: String
+    author: String
+}
+
 type Query {
     getMember(memberId:ID!): Member
     getMusic(musicId:ID!):Music
+    getCompany(messageInput:MessageInput!): Company
 }
