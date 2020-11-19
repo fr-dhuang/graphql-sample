@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 import graphql.kickstart.tools.GraphQLResolver;
 import graphql.sample.mapper.MusicsOfMemberMapper;
-import graphql.sample.model.Member;
-import graphql.sample.model.Music;
+import graphql.sample.dao.Member;
+import graphql.sample.dao.Music;
 
 @Component
 public class MemberResolver implements GraphQLResolver<Member> {

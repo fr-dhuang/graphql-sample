@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 import org.springframework.context.annotation.Configuration;
 
-import graphql.sample.model.Member;
-import graphql.sample.model.Music;
+import graphql.sample.dao.Member;
+import graphql.sample.dao.Music;
 
 @Configuration
 public class MemberMapperImpl implements MemberMapper {

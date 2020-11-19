@@ -1,9 +1,6 @@
 package graphql.sample.mapper;
 
-import java.util.List;
-
-import graphql.sample.model.Company;
-import graphql.sample.model.Music;
+import graphql.sample.dao.Company;
 
 public interface CompanyOfMusicMapper {
     Company getCompanyOfMusic(String companyId);

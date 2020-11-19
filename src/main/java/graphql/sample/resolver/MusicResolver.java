@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 
 import graphql.kickstart.tools.GraphQLResolver;
 import graphql.sample.mapper.CompanyOfMusicMapper;
-import graphql.sample.model.Company;
-import graphql.sample.model.Music;
+import graphql.sample.dao.Company;
+import graphql.sample.dao.Music;
 
 @Component
 public class MusicResolver implements GraphQLResolver<Music> {

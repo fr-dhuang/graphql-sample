@@ -1,13 +1,10 @@
 package graphql.sample.resolver;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import graphql.kickstart.tools.GraphQLQueryResolver;
-import graphql.sample.mapper.MusicMapper;
-import graphql.sample.model.Company;
-import graphql.sample.model.MessageInput;
-import graphql.sample.model.Music;
+import graphql.sample.dao.Company;
+import graphql.sample.dao.MessageInput;
 
 @Component
 public class CompanyQueryResolver implements GraphQLQueryResolver {

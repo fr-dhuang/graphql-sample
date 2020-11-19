@@ -1,6 +1,4 @@
-package graphql.sample.model;
-
-import java.util.List;
+package graphql.sample.dao;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

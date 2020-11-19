@@ -1,4 +1,4 @@
-package graphql.sample.model;
+package graphql.sample.dao;
 
 import java.util.List;
 

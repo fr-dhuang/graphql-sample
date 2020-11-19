@@ -1,4 +1,4 @@
-package graphql.sample.model;
+package graphql.sample.dao;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

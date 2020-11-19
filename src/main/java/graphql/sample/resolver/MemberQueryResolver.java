@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 import graphql.kickstart.tools.GraphQLQueryResolver;
 import graphql.sample.mapper.MemberMapper;
-import graphql.sample.model.Member;
+import graphql.sample.dao.Member;
 
 @Component
 public class MemberQueryResolver implements GraphQLQueryResolver {
