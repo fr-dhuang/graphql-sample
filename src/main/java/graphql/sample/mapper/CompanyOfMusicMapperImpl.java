@@ -15,6 +15,6 @@ public class CompanyOfMusicMapperImpl implements CompanyOfMusicMapper {
     private int interval = 1919;
 
     public Company getCompanyOfMusic(String memberId) {
-        return new Company("893", interval);
+        return new Company("aaa", interval);
     }
 }
