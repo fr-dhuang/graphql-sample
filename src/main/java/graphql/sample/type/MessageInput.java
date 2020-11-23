@@ -13,6 +13,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class MessageInput {
     private String content;
-
     private String author;
 }

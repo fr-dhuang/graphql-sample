@@ -10,6 +10,6 @@ import graphql.sample.type.Music;
 @Configuration
 public class MusicsOfMemberMapperImpl implements MusicsOfMemberMapper {
     public List<Music> getMusicsOfMember(String memberId) {
-        return Arrays.asList(new Music("114514", "1919810"), new Music("931", "364"));
+        return Arrays.asList(new Music("a", "b"), new Music("c", "d"));
     }
 }

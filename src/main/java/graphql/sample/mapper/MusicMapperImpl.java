@@ -7,6 +7,6 @@ import graphql.sample.type.Music;
 @Configuration
 public class MusicMapperImpl implements MusicMapper {
     public Music getById(String id) {
-        return new Music("114514", "yaju");
+        return new Music("514", "yaju");
     }
 }
